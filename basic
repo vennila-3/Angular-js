@@ -1,0 +1,11 @@
+install
+  node 
+  npm i -g @angular/cli
+  ng version  -- to check the version
+  c:
+  cd C:\Users\Admin\Documents\Aspire\Angular js
+  ng new hello-world   ---- angular package are installed 
+
+how to run angular 
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -scope CurrentUser  -- it install some application/library to run the application
+   ng serve  -- run command
