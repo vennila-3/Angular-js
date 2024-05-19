@@ -9,3 +9,35 @@ install
 how to run angular 
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -scope CurrentUser  -- it install some application/library to run the application
    ng serve  -- run command
+
+
+Typescript is basic for angular 
+
+Componenets  (data  + html + css)
+  Components are the main building blocks for Angular applications.
+  Each component consists of: An HTML template that declares what renders on the page. 
+  A TypeScript class that defines behavior. A CSS selector that defines how the component is used in a templat
+
+
+
+how to create component
+
+
+manual component create
+  first create  ts file in app
+  
+   import { Component } from "@angular/core"; // import typescript function
+// component creation
+
+  @Component({
+   selector :'app-employee',
+   templateUrl: './employee.component.html',
+   styleUrl : './employee.component.css'
+})
+
+export class EmployeeComponent {
+    title ='Hello welcome to Aspire';
+}
+
+register component into app module then only angular app understand this is component
+
